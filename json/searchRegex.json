@@ -1,0 +1,92 @@
+[
+  {
+    "name" : "ok",
+    "host" : "http://www.okzyw.com",
+    "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
+    "charType" : "utf-8",
+    "lineBreak" : false,
+    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a></span> <span class=\"xing_vb5\">(.*)</span>",
+    "itemRegex" : "checked=\"\" />(.*)\\$(.*\\.m3u8)</li>"
+  },
+  {
+    "name" : "135",
+    "host" : "http://135zy0.com",
+    "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
+    "charType" : "utf-8",
+    "lineBreak" : true,
+    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a>\n</span><span class=\"xing_vb5\">(.*)</span><span",
+    "itemRegex" : "checked=\"\" />(.*)\\$(.*\\.m3u8)</li>"
+  },
+  {
+    "name" : "最大",
+    "host" : "http://www.zuidazy2.net",
+    "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
+    "charType" : "utf-8",
+    "lineBreak" : false,
+    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)<span>.*</span></a></span> <span class=\"xing_vb5\">(.*)</span>",
+    "itemRegex" : "checked=\"\" />(.*)\\$(.*\\.m3u8)</li>"
+  },
+  {
+    "name" : "123",
+    "host" : "http://www.123ku.com",
+    "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
+    "charType" : "utf-8",
+    "lineBreak" : false,
+    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a></span> <span class=\"xing_vb5\">(.*)</span>",
+    "itemRegex" : "target=\"_black\">(.*)\\$(.*\\.m3u8)</a>"
+  },
+  {
+    "name" : "最新",
+    "host" : "http://www.zuixinzy.com",
+    "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
+    "charType" : "utf-8",
+    "lineBreak" : false,
+    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a></span> <span class=\"xing_vb5\">(.*)</span>",
+    "itemRegex" : "checked=\"\" />(.*)\\$(.*\\.m3u8)</li>"
+  },
+  {
+    "name" : "605",
+    "host" : "http://www.765zy.com",
+    "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
+    "charType" : "utf-8",
+    "lineBreak" : false,
+    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a></span> <span class=\"xing_vb5\">(.*)</span> <span",
+    "itemRegex" : "target=\"_blank\">(.*)\\$(.*\\.m3u8)</a></li>"
+  },
+  {
+    "name" : "哈酷",
+    "host" : "http://www.666zy.com",
+    "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
+    "charType" : "utf-8",
+    "lineBreak" : false,
+    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)<font color=\"red\">.*</font></a></span><span class=\"xing_vb5\">(.*)</span>",
+    "itemRegex" : "target=\"_blank\">(.*)\\$(.*\\.m3u8)</a></li>"
+  },
+  {
+    "name" : "秒播",
+    "host" : "http://www.mbkkk.com",
+    "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
+    "charType" : "utf-8",
+    "lineBreak" : false,
+    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a></span> <span class=\"xing_vb5\">(.*)</span> <span",
+    "itemRegex" : "target=\"_blank\" />(.*)\\$(.*\\.m3u8)</li></a>"
+  },
+  {
+    "name" : "酷云",
+    "host" : "http://www.kuyunzyw.tv",
+    "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
+    "charType" : "utf-8",
+    "lineBreak" : true,
+    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a>\n</td>\n<td align=\"center\"><font color=\"#000\">.*</font>\\n</td>\n<td align=\"center\"><a href=\".*\" target=\"_blank\">(.*)</a>",
+    "itemRegex" : "<a>(.*)\\$(.*\\.m3u8)</a>"
+  },
+  {
+    "name" : "速播",
+    "host" : "http://www.subo988.com",
+    "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
+    "charType" : "utf-8",
+    "lineBreak" : false,
+    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a></span> <span class=\"xing_vb5\">(.*)</span> <span",
+    "itemRegex" : "checked=\"\" />(.*)\\$(.*\\.m3u8)</li>"
+  }
+]

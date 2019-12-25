@@ -1,0 +1,258 @@
+[
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "BBC earch",
+  "tvList" : [
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://cloud-play.hhalloy.com/live/f7146ac8e65cb75112431f87ddcea22e.flv"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "顶级科幻",
+  "tvList" : [
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "https://aldirect.hls.huya.com/huyalive/28466698-2689656864-11551988268341919744-2847699194-10057-A-0-1_1200.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "香港翡翠台",
+  "tvList" : [
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://cloud-play.hhalloy.com/live/b3a93cbbd1908e81783879747bb3090a.flv"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "灾难电影",
+  "tvList" : [
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "https://aldirect.hls.huya.com/huyalive/29106097-2689453724-11551115788685410304-2847687506-10057-A-1525422901-1_1200.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "Lifestyle",
+  "tvList" : [
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://cloud-play.hhalloy.com/live/5e80f4a9e17c991df381030c65856687.flv"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "Discovery",
+  "tvList" : [
+   {
+    "tvUrlTips" : "超清" ,
+    "tvUrl" : "http://cloud-play.hhalloy.com/live/ef2748398207873cae12b151ae78b0af.flv"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "湖南卫视" ,
+  "epgIndex" : "hunan" ,
+  "tvLogo" : "hn.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "超清" ,
+    "tvUrl" : "http://39.135.36.153:18890/000000001000/1000000001000009115/1.m3u8?channel-id=ystenlive&Contentid=1000000001000009115&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=1000000001000009115&owchid=ystenlive&owsid=1106497909461209970&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7AORAoVDZDWbFnJ0sXJEaRJ1HPTMtmQf%2bVwcp8RojByB2Rhtn7waHVWUQ9gcJ0mHLEp3xuYtoWp3K%2bdNVn%2bMR4"
+   },
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://125.210.152.18:9090/live/HNWSHD_H265.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "浙江卫视" ,
+  "epgIndex" : "zhejiang" ,
+  "tvLogo" : "zj.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "超清" ,
+    "tvUrl" : "http://39.135.36.146:18890/000000001000/1000000001000009806/1.m3u8?channel-id=ystenlive&Contentid=1000000001000009806&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=1000000001000009806&owchid=ystenlive&owsid=1106497909461218392&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7AORAoVDZDWbFnJ0sXJEaRt6tuEx40ruFSJnrbh2BVWwXsEFuvV04XsE9ZOm50Z8cpDzo0JrXSxYrVj73IVRt9"
+   },
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://125.210.152.18:9090/live/ZJWSHD_H265.m3u8"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "http://yf.m.l.cztv.com/channels/lantian/channel01/360p.m3u8?k=b2c68d6137bd071d16e09ad518643db6&t=1574173730"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "上海东方卫视" ,
+  "epgIndex" : "dongfang" ,
+  "tvLogo" : "df.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "超清" ,
+    "tvUrl" : "http://39.135.36.143:18890/000000001000/1000000001000030202/1.m3u8?channel-id=ystenlive&Contentid=1000000001000030202&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=1000000001000030202&owchid=ystenlive&owsid=1106497909461236159&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7AORAoVDZDWbFnJ0sXJEaR5IXgk%2b6a%2bY1Viivj30IkCl065X8GSWgqnbGOJH69GYNl9jXWqt3b3Vkm63dGSY%2b5"
+   },
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://125.210.152.18:9090/live/DFWSHD_H265.m3u8"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "http://cctvalih5ca.v.myalicdn.com/wstv/dongfang_2/index.m3u8?contentid=2820180516001"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "北京卫视" ,
+  "epgIndex" : "btv1" ,
+  "tvLogo" : "bj.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "超清" ,
+    "tvUrl" : "http://39.135.36.143:18890/000000001000/1000000001000017156/1.m3u8?channel-id=ystenlive&Contentid=1000000001000017156&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=1000000001000017156&owchid=ystenlive&owsid=1106497909461249865&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7AORAoVDZDWbFnJ0sXJEaRV7KOtBVuvtVZFLcgrBAOKYd9hOl8T7nV%2fYYLzxPrqZvxI1UedirhXiKrowSY0GL9"
+   },
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://125.210.152.18:9090/live/BJWSHD_H265.m3u8"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "http://cctvbsh5ca.v.live.baishancdnx.cn/wstv/btv1_2/index.m3u8?contentid=2820180516001"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "安徽卫视" ,
+  "epgIndex" : "anhui" ,
+  "tvLogo" : "ah.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://125.210.152.18:9090/live/AHWSHD_H265.m3u8"
+   },
+   {
+    "tvUrlTips" : "高清2" ,
+    "tvUrl" : "http://39.135.36.157:18890/000000001000/4774346722046993363/1.m3u8?channel-id=ystenlive&Contentid=4774346722046993363&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=4774346722046993363&owchid=ystenlive&owsid=1106497909461303710&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE6rtwuCbF0UBw1ECKohiyVXtAaM2LAoJTgBkO9sqSP7vGKF4XQrqmpBPeC9CblENbpBoei4M1GZJUNAFlnpSFVM"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "http://cctvksh5ca.v.kcdnvip.com/wstv/anhui_2/index.m3u8?contentid=2820180516001"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "CCTV-1 综合" ,
+  "epgIndex" : "cctv1" ,
+  "tvLogo" : "c1.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "超清" ,
+    "tvUrl" : "http://39.135.36.151:18890/000000001000/1000000001000021973/1.m3u8?channel-id=ystenlive&Contentid=1000000001000021973&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=4ef1f6fdd53988bdf19472c73151206f21vv&usergroup=g21077200000&version=1.0&owaccmark=1000000001000021973&owchid=ystenlive&owsid=1106497909461769539&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7AORAoVDZDWbFnJ0sXJEaRLaQJeR5usCQMKdpIDCZAoYPt4bOuuiUwGxs8%2fKxpb7Wa3xqB26AcGEvjhx3JJlw6"
+   },
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://125.210.152.18:9090/live/CCTV1HD_H265.m3u8"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "https://cctvcnch5ca.v.wscdns.com/live/cctv1_2/index.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "CCTV-5 体育" ,
+  "epgIndex" : "cctv5" ,
+  "tvLogo" : "c5.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "超清" ,
+    "tvUrl" : "http://39.135.36.146:18890/000000001000/1000000001000004794/1.m3u8?channel-id=ystenlive&Contentid=1000000001000004794&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=1000000001000004794&owchid=ystenlive&owsid=1106497909461092492&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7AORAoVDZDWbFnJ0sXJEaRFIaTOfcD93c7ACh3puyaR1v%2bioI39cfseenlxp5u9UfADU6BCDl7v7CTGKuGZw1d"
+   },
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://125.210.152.18:9090/live/CCTV5HD_H265.m3u8"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "http://cctv5alih5ca.v.myalicdn.com/live/cctv5_2/index.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "CCTV-5+ 体育赛事" ,
+  "epgIndex" : "cctv5plus" ,
+  "tvLogo" : "c5p.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "超清" ,
+    "tvUrl" : "http://39.135.36.152:18890/000000001000/1000000001000020505/1.m3u8?channel-id=ystenlive&Contentid=1000000001000020505&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=1000000001000020505&owchid=ystenlive&owsid=1106497909461103025&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7AORAoVDZDWbFnJ0sXJEaRkrZ1YVus93dDbxNB4SF1DDcF4ZpIL8iGHt%2bMdt2ZAOlknlq9lyy%2fQZJVqiFUxfle"
+   },
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221225938/1.m3u8"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "http://cctv5alih5ca.v.myalicdn.com/live/cctv5plus_2/index.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "CCTV-8 电视剧" ,
+  "epgIndex" : "cctv8" ,
+  "tvLogo" : "c8.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "超清" ,
+    "tvUrl" : "http://39.135.36.154:18890/000000001000/1000000001000003736/1.m3u8?channel-id=ystenlive&Contentid=1000000001000003736&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=1000000001000003736&owchid=ystenlive&owsid=1106497909461132718&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7AORAoVDZDWbFnJ0sXJEaRKhIjYL3aRNrIf2qoTcK90Bd0oe1gvWxxvd9Qs9pkD5eKCeYPeHs2GppHtnd1klhd"
+   },
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://125.210.152.18:9090/live/CCTV8HD_H265.m3u8"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "http://cctv5alih5ca.v.myalicdn.com/live/cctv8_2/index.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "CCTV-12 社会与法" ,
+  "epgIndex" : "cctv12" ,
+  "tvLogo" : "c12.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://125.210.152.18:9090/live/CCTV12HD_H265.m3u8"
+   },
+   {
+    "tvUrlTips" : "高清2" ,
+    "tvUrl" : "http://39.135.36.153:18890/000000001000/5325631075193490169/1.m3u8?channel-id=ystenlive&Contentid=5325631075193490169&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=5325631075193490169&owchid=ystenlive&owsid=1106497909461165978&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7Q36zc4fu7NwQ%2fn1v2mTHqagOL8gLhzmY66HLCxgy24bGH5Xn1D6yEQdwViWmtBz15WRKuKxWsf0XH20JE0dby"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "http://cctv5alih5ca.v.myalicdn.com/live/cctv12_2/index.m3u8"
+   }
+  ]
+ }
+]
