@@ -1,0 +1,111 @@
+<html>
+<head>
+  
+  	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit">
+  
+ <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #weixin-tip-box {
+            display: none;
+            position: fixed;
+            right: 0;
+            top: 4px;
+            align-items: center;
+        }
+        .weixin-tip {
+            background: #00a8f3;
+            z-index: 100;
+            padding: 15px;
+            border-radius: 15px;
+            margin-right: 15px
+        }
+
+        .weixin-tip p {
+            text-align: center;
+            font-size: 20px;
+            color: #fff
+        }
+
+        .weixin-tip p.content {
+            text-align: center;
+            font-size: 20px
+        }
+
+        .triangle_border_up {
+            width: 0;
+            height: 0;
+            border-width: 0 10px 18px;
+            border-style: solid;
+            border-color: transparent transparent #00a8f3;
+            /*透明 透明  灰*/
+            margin-left: 160px
+        }
+    </style>
+  
+</head>
+<body>
+  
+  
+<body class="success">
+    <div id='weixin-tip-box'>
+        <div class="triangle_border_up">
+            <span></span>
+        </div>
+        <div class="weixin-tip">
+            <p>
+                请点击右上角
+            </p>
+            <p class="content">
+                选择"浏览器中打开"
+            </p>
+        </div>
+    </div>
+
+<script type="text/javascript">
+        var is_weixin = (function () {
+            var ua = navigator.userAgent.toLowerCase();
+            if (ua.match(/MicroMessenger/i) == "micromessenger") {//微信中打开网页
+                return true;
+            } else if (ua.match(/QQ/i) == "qq") {//qq里打开网页
+                return true;
+            } else {
+                return false;
+            }
+        })();
+        window.onload = function () {
+            //var winHeight = typeof window.innerHeight != 'undefined' ? window.innerHeight : document.documentElement.clientHeight;
+            var tip = document.getElementById('weixin-tip-box');
+            if (is_weixin) {
+                tip.style.display = 'block';
+                return false;
+            }else{
+            	window.location.href="https://coding.sonice.pro/app/SonicePro_191221.apk";
+              	window.close();
+            }
+        }
+    </script>
+  
+  <script>
+  	var _mtac = {};
+  	(function() {
+  		var mta = document.createElement("script");
+  		mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
+  		mta.setAttribute("name", "MTAH5");
+  		mta.setAttribute("sid", "500706825");
+
+  		var s = document.getElementsByTagName("script")[0];
+  		s.parentNode.insertBefore(mta, s);
+  	})();
+</script>
+  
+<body/>
+</html>

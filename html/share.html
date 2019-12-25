@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+
+<html>
+  <head>
+  	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit">
+  </head>
+  <body>
+    <script>
+      	function getQueryString(name) {
+    		var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+    		var r = window.location.search.substr(1).match(reg);
+        	if (r != null) return decodeURI(r[2]); return null;
+		}
+      
+    	var title=getQueryString("title");
+		var id=getQueryString("id");
+
+		var u = navigator.userAgent;
+    	if (u.indexOf('Android') > -1 || u.indexOf('Linux') > -1) {
+        	//安卓手机
+          	window.location.href="./androidShare.html?title="+title+"&id="+id;
+    	}else{
+        	window.location.href="./otherShare.html?title="+title+"&id="+id;
+    	}
+		window.close();//关闭本页
+    </script>
+  </body>
+</html>
