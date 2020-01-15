@@ -45,15 +45,6 @@
     "itemRegex" : "checked=\"\" />(.*)\\$(.*\\.m3u8)</li>"
   },
   {
-    "name" : "605",
-    "host" : "http://www.765zy.com",
-    "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
-    "charType" : "utf-8",
-    "lineBreak" : false,
-    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a></span> <span class=\"xing_vb5\">(.*)</span> <span",
-    "itemRegex" : "target=\"_blank\">(.*)\\$(.*\\.m3u8)</a></li>"
-  },
-  {
     "name" : "哈酷",
     "host" : "http://www.666zy.com",
     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
@@ -79,14 +70,5 @@
     "lineBreak" : true,
     "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a>\n</td>\n<td align=\"center\"><font color=\"#000\">.*</font>\\n</td>\n<td align=\"center\"><a href=\".*\" target=\"_blank\">(.*)</a>",
     "itemRegex" : "<a>(.*)\\$(.*\\.m3u8)</a>"
-  },
-  {
-    "name" : "速播",
-    "host" : "http://www.subo988.com",
-    "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
-    "charType" : "utf-8",
-    "lineBreak" : false,
-    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a></span> <span class=\"xing_vb5\">(.*)</span> <span",
-    "itemRegex" : "checked=\"\" />(.*)\\$(.*\\.m3u8)</li>"
   }
 ]
