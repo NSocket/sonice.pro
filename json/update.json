@@ -1,6 +1,7 @@
 {
   "title" : "搜视Pro",
-  "version" : "19.12.21",
-  "info" : "修复升级异常<br>新增腾讯统计<br>新增搜索重定向<br>新增“关于”<br>新增m3u8视频自定义下载<br>优化视频分享<br>修复已知bug",
-  "url" : "http://coding.sonice.pro/html/open-download.html"
+  "version" : "20.01.15",
+  "info" : "不能正常升级请加QQ群：<font color=#00a8f3>956289075</font>(搜视Pro官方群)<br>新增下一集<br>新增演职人员，点击头像可搜索全部作品<br>新增同类型影片推荐<br>修补本地播放异常<br>优化播放界面进出效果<br>调整播放器外观",
+  "url" : "http://coding.sonice.pro/html/open-download.html",
+  "visibility" : true
 }
