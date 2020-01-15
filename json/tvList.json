@@ -1,17 +1,7 @@
 [
  {
   "uiType" : "NotEPG",
-  "tvName" : "BBC earch",
-  "tvList" : [
-   {
-    "tvUrlTips" : "高清" ,
-    "tvUrl" : "http://cloud-play.hhalloy.com/live/f7146ac8e65cb75112431f87ddcea22e.flv"
-   }
-  ]
- },
- {
-  "uiType" : "NotEPG",
-  "tvName" : "顶级科幻",
+  "tvName" : "顶级科幻电影",
   "tvList" : [
    {
     "tvUrlTips" : "高清" ,
@@ -21,11 +11,81 @@
  },
  {
   "uiType" : "NotEPG",
-  "tvName" : "香港翡翠台",
+  "tvName" : "黑莓动画",
   "tvList" : [
    {
     "tvUrlTips" : "高清" ,
-    "tvUrl" : "http://cloud-play.hhalloy.com/live/b3a93cbbd1908e81783879747bb3090a.flv"
+    "tvUrl" : "http://39.135.36.141:18890/000000001000/6497762188035533951/1.m3u8?channel-id=ystenlive&Contentid=6497762188035533951&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=4ef1f6fdd53988bdf19472c73151206f21vv&usergroup=g21077200000&version=1.0&owaccmark=6497762188035533951&owchid=ystenlive&owsid=1106497909461636297&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7yuzV0ONj3jLJ3hwVkzsTuqbBS2aSqqFpaY6XZKMHRlKo8mmc3pY99jwkF3YYIQ9U6aewUh4Nwm0T2s2uo6zdq"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "黑莓电影",
+  "tvList" : [
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://39.135.36.141:18890/000000001000/8785669936177902664/1.m3u8?channel-id=ystenlive&Contentid=8785669936177902664&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=4ef1f6fdd53988bdf19472c73151206f21vv&usergroup=g21077200000&version=1.0&owaccmark=8785669936177902664&owchid=ystenlive&owsid=1106497909461631220&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE6jEmjAMUGy0nIP6jSu%2f7L4kcrIRnbleOKJQFIG34oz%2fEDJYj1%2f6O12Q90SehwN9wSgbQeB4w7iizkqjoW2e%2b8f"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "好莱坞电影",
+  "tvList" : [
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://cloud-play.hhalloy.com/live/8e678565884cdebd00f8b3121b3b7ee1.flv"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "NewTV 精品大剧",
+  "tvList" : [
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://39.135.36.147:18890/000000001000/7882297361445410858/1.m3u8?channel-id=ystenlive&Contentid=7882297361445410858&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=4ef1f6fdd53988bdf19472c73151206f21vv&usergroup=g21077200000&version=1.0&owaccmark=7882297361445410858&owchid=ystenlive&owsid=1106497909461708013&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE4G3gHhbopAXv1%2bwSMC13LXLIuhzr0myUm7odTYlfUIkKrQcNEkHc7TnPLGe1r4%2bIX7AhIXtKagjAfjVTqFHQE4"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "NewTV 搏击",
+  "tvList" : [
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://39.135.36.154:18890/000000001000/bokesen/1.m3u8?channel-id=ystenlive&Contentid=bokesen&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=4ef1f6fdd53988bdf19472c73151206f21vv&usergroup=g21077200000&version=1.0&owaccmark=bokesen&owchid=ystenlive&owsid=1106497909461689613&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7tWwcJ9gAtxn4aPYIw71ppLozLIK9YQrvbqFru4XbE8FIhvh4VgXNnv8f9IP4gfSA%3d"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "NewTV 金牌综艺",
+  "tvList" : [
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://39.135.36.140:18890/000000001000/6399725674632152632/1.m3u8?channel-id=ystenlive&Contentid=6399725674632152632&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=4ef1f6fdd53988bdf19472c73151206f21vv&usergroup=g21077200000&version=1.0&owaccmark=6399725674632152632&owchid=ystenlive&owsid=1106497909461719323&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE4gyKcpvop%2bJI182Bs2kqZG345lJmBteJiRcq6kB86C9F3lxBSs1xa6%2bdgOwB1WRIKDdF3P8H%2bLGMiwAhepZKru"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "NewTV 精品记录",
+  "tvList" : [
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://39.135.36.156:18890/000000001000/6298506997017621594/1.m3u8?channel-id=ystenlive&Contentid=6298506997017621594&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=4ef1f6fdd53988bdf19472c73151206f21vv&usergroup=g21077200000&version=1.0&owaccmark=6298506997017621594&owchid=ystenlive&owsid=1106497909461739335&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE5Z%2fEzyUAZDVIPoiwNPLYgjJvkohoXFTsC5VYOGHUU7RlueMvRrGKmSZC%2bNKYW4Mlhq%2bt9ZsVsg39%2bFutggbU%2f7"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "BBC Lifestyle",
+  "tvList" : [
+   {
+    "tvUrlTips" : "高清" ,
+    "tvUrl" : "http://cloud-play.hhalloy.com/live/5e80f4a9e17c991df381030c65856687.flv"
    }
   ]
  },
@@ -36,26 +96,6 @@
    {
     "tvUrlTips" : "高清" ,
     "tvUrl" : "https://aldirect.hls.huya.com/huyalive/29106097-2689453724-11551115788685410304-2847687506-10057-A-1525422901-1_1200.m3u8"
-   }
-  ]
- },
- {
-  "uiType" : "NotEPG",
-  "tvName" : "Lifestyle",
-  "tvList" : [
-   {
-    "tvUrlTips" : "高清" ,
-    "tvUrl" : "http://cloud-play.hhalloy.com/live/5e80f4a9e17c991df381030c65856687.flv"
-   }
-  ]
- },
- {
-  "uiType" : "NotEPG",
-  "tvName" : "Discovery",
-  "tvList" : [
-   {
-    "tvUrlTips" : "超清" ,
-    "tvUrl" : "http://cloud-play.hhalloy.com/live/ef2748398207873cae12b151ae78b0af.flv"
    }
   ]
  },
