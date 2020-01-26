@@ -18,13 +18,13 @@
     "itemRegex" : "value=\"(.*)\\$(http(s)?://.*\\.m3u8)\" checked"
   },
   {
-    "name" : "97",
-    "host" : "http://www.97ysw.vip",
+    "name" : "398",
+    "host" : "http://398.net",
     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
     "charType" : "utf-8",
     "lineBreak" : false,
-    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a></span> <span class=\"xing_vb5\">(.*)</span> <span",
-    "itemRegex" : "checked=\"\" />(.*)\\$(http(s)?://.*\\.m3u8)</li>"
+    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)\n\\t*<font color=\"#FF0000\">.*</font></a></span><span class=\"xing_vb51\">(.*)</span><span class=\"xing_vb52\"",
+    "itemRegex" : "checked=\"\">(.*)\\$(http(s)?://.*\\.m3u8)</li>"
   },
   {
     "name" : "最大",
