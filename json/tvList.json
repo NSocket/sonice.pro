@@ -15,7 +15,7 @@
   "tvList" : [
    {
     "tvUrlTips" : "高清" ,
-    "tvUrl" : "http://39.135.36.141:18890/000000001000/6497762188035533951/1.m3u8?channel-id=ystenlive&Contentid=6497762188035533951&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=4ef1f6fdd53988bdf19472c73151206f21vv&usergroup=g21077200000&version=1.0&owaccmark=6497762188035533951&owchid=ystenlive&owsid=1106497909461636297&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7yuzV0ONj3jLJ3hwVkzsTuqbBS2aSqqFpaY6XZKMHRlKo8mmc3pY99jwkF3YYIQ9U6aewUh4Nwm0T2s2uo6zdq"
+    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225662/index.m3u8"
    }
   ]
  },
@@ -25,17 +25,17 @@
   "tvList" : [
    {
     "tvUrlTips" : "高清" ,
-    "tvUrl" : "http://39.135.36.141:18890/000000001000/8785669936177902664/1.m3u8?channel-id=ystenlive&Contentid=8785669936177902664&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=4ef1f6fdd53988bdf19472c73151206f21vv&usergroup=g21077200000&version=1.0&owaccmark=8785669936177902664&owchid=ystenlive&owsid=1106497909461631220&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE6jEmjAMUGy0nIP6jSu%2f7L4kcrIRnbleOKJQFIG34oz%2fEDJYj1%2f6O12Q90SehwN9wSgbQeB4w7iizkqjoW2e%2b8f"
+    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225667/index.m3u8"
    }
   ]
  },
  {
   "uiType" : "NotEPG",
-  "tvName" : "好莱坞电影",
+  "tvName" : "电竞频道",
   "tvList" : [
    {
     "tvUrlTips" : "高清" ,
-    "tvUrl" : "http://cloud-play.hhalloy.com/live/8e678565884cdebd00f8b3121b3b7ee1.flv"
+    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225675/index.m3u8"
    }
   ]
  },
@@ -45,7 +45,7 @@
   "tvList" : [
    {
     "tvUrlTips" : "高清" ,
-    "tvUrl" : "http://39.135.36.147:18890/000000001000/7882297361445410858/1.m3u8?channel-id=ystenlive&Contentid=7882297361445410858&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=4ef1f6fdd53988bdf19472c73151206f21vv&usergroup=g21077200000&version=1.0&owaccmark=7882297361445410858&owchid=ystenlive&owsid=1106497909461708013&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE4G3gHhbopAXv1%2bwSMC13LXLIuhzr0myUm7odTYlfUIkKrQcNEkHc7TnPLGe1r4%2bIX7AhIXtKagjAfjVTqFHQE4"
+    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225670/index.m3u8"
    }
   ]
  },
@@ -55,7 +55,7 @@
   "tvList" : [
    {
     "tvUrlTips" : "高清" ,
-    "tvUrl" : "http://39.135.36.154:18890/000000001000/bokesen/1.m3u8?channel-id=ystenlive&Contentid=bokesen&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=4ef1f6fdd53988bdf19472c73151206f21vv&usergroup=g21077200000&version=1.0&owaccmark=bokesen&owchid=ystenlive&owsid=1106497909461689613&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7tWwcJ9gAtxn4aPYIw71ppLozLIK9YQrvbqFru4XbE8FIhvh4VgXNnv8f9IP4gfSA%3d"
+    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225680/index.m3u8"
    }
   ]
  },
@@ -65,7 +65,7 @@
   "tvList" : [
    {
     "tvUrlTips" : "高清" ,
-    "tvUrl" : "http://39.135.36.140:18890/000000001000/6399725674632152632/1.m3u8?channel-id=ystenlive&Contentid=6399725674632152632&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=4ef1f6fdd53988bdf19472c73151206f21vv&usergroup=g21077200000&version=1.0&owaccmark=6399725674632152632&owchid=ystenlive&owsid=1106497909461719323&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE4gyKcpvop%2bJI182Bs2kqZG345lJmBteJiRcq6kB86C9F3lxBSs1xa6%2bdgOwB1WRIKDdF3P8H%2bLGMiwAhepZKru"
+    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225666/index.m3u8"
    }
   ]
  },
@@ -75,17 +75,17 @@
   "tvList" : [
    {
     "tvUrlTips" : "高清" ,
-    "tvUrl" : "http://39.135.36.156:18890/000000001000/6298506997017621594/1.m3u8?channel-id=ystenlive&Contentid=6298506997017621594&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=4ef1f6fdd53988bdf19472c73151206f21vv&usergroup=g21077200000&version=1.0&owaccmark=6298506997017621594&owchid=ystenlive&owsid=1106497909461739335&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE5Z%2fEzyUAZDVIPoiwNPLYgjJvkohoXFTsC5VYOGHUU7RlueMvRrGKmSZC%2bNKYW4Mlhq%2bt9ZsVsg39%2bFutggbU%2f7"
+    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225672/index.m3u8"
    }
   ]
  },
  {
   "uiType" : "NotEPG",
-  "tvName" : "BBC Lifestyle",
+  "tvName" : "NewTV 军事评论",
   "tvList" : [
    {
     "tvUrlTips" : "高清" ,
-    "tvUrl" : "http://cloud-play.hhalloy.com/live/5e80f4a9e17c991df381030c65856687.flv"
+    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225668/index.m3u8"
    }
   ]
  },
@@ -107,7 +107,7 @@
   "tvList" : [
    {
     "tvUrlTips" : "超清" ,
-    "tvUrl" : "http://39.135.36.153:18890/000000001000/1000000001000009115/1.m3u8?channel-id=ystenlive&Contentid=1000000001000009115&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=1000000001000009115&owchid=ystenlive&owsid=1106497909461209970&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7AORAoVDZDWbFnJ0sXJEaRJ1HPTMtmQf%2bVwcp8RojByB2Rhtn7waHVWUQ9gcJ0mHLEp3xuYtoWp3K%2bdNVn%2bMR4"
+    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225646/index.m3u8"
    },
    {
     "tvUrlTips" : "高清" ,
@@ -123,7 +123,7 @@
   "tvList" : [
    {
     "tvUrlTips" : "超清" ,
-    "tvUrl" : "http://39.135.36.146:18890/000000001000/1000000001000009806/1.m3u8?channel-id=ystenlive&Contentid=1000000001000009806&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=1000000001000009806&owchid=ystenlive&owsid=1106497909461218392&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7AORAoVDZDWbFnJ0sXJEaRt6tuEx40ruFSJnrbh2BVWwXsEFuvV04XsE9ZOm50Z8cpDzo0JrXSxYrVj73IVRt9"
+    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225643/index.m3u8"
    },
    {
     "tvUrlTips" : "高清" ,
@@ -143,7 +143,7 @@
   "tvList" : [
    {
     "tvUrlTips" : "超清" ,
-    "tvUrl" : "http://39.135.36.143:18890/000000001000/1000000001000030202/1.m3u8?channel-id=ystenlive&Contentid=1000000001000030202&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=1000000001000030202&owchid=ystenlive&owsid=1106497909461236159&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7AORAoVDZDWbFnJ0sXJEaR5IXgk%2b6a%2bY1Viivj30IkCl065X8GSWgqnbGOJH69GYNl9jXWqt3b3Vkm63dGSY%2b5"
+    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225647/index.m3u8"
    },
    {
     "tvUrlTips" : "高清" ,
@@ -163,7 +163,7 @@
   "tvList" : [
    {
     "tvUrlTips" : "超清" ,
-    "tvUrl" : "http://39.135.36.143:18890/000000001000/1000000001000017156/1.m3u8?channel-id=ystenlive&Contentid=1000000001000017156&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=1000000001000017156&owchid=ystenlive&owsid=1106497909461249865&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7AORAoVDZDWbFnJ0sXJEaRV7KOtBVuvtVZFLcgrBAOKYd9hOl8T7nV%2fYYLzxPrqZvxI1UedirhXiKrowSY0GL9"
+    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225651/index.m3u8"
    },
    {
     "tvUrlTips" : "高清" ,
@@ -182,12 +182,12 @@
   "tvLogo" : "ah.png" ,
   "tvList" : [
    {
-    "tvUrlTips" : "高清" ,
-    "tvUrl" : "http://125.210.152.18:9090/live/AHWSHD_H265.m3u8"
+    "tvUrlTips" : "高清A" ,
+    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225631/index.m3u8"
    },
    {
-    "tvUrlTips" : "高清2" ,
-    "tvUrl" : "http://39.135.36.157:18890/000000001000/4774346722046993363/1.m3u8?channel-id=ystenlive&Contentid=4774346722046993363&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=4774346722046993363&owchid=ystenlive&owsid=1106497909461303710&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE6rtwuCbF0UBw1ECKohiyVXtAaM2LAoJTgBkO9sqSP7vGKF4XQrqmpBPeC9CblENbpBoei4M1GZJUNAFlnpSFVM"
+    "tvUrlTips" : "高清B" ,
+    "tvUrl" : "http://125.210.152.18:9090/live/AHWSHD_H265.m3u8"
    },
    {
     "tvUrlTips" : "流畅" ,
@@ -223,7 +223,7 @@
   "tvList" : [
    {
     "tvUrlTips" : "超清" ,
-    "tvUrl" : "http://39.135.36.146:18890/000000001000/1000000001000004794/1.m3u8?channel-id=ystenlive&Contentid=1000000001000004794&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=1000000001000004794&owchid=ystenlive&owsid=1106497909461092492&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7AORAoVDZDWbFnJ0sXJEaRFIaTOfcD93c7ACh3puyaR1v%2bioI39cfseenlxp5u9UfADU6BCDl7v7CTGKuGZw1d"
+    "tvUrl" : "http://117.156.28.21/PLTV/88888888/224/3221225635/index.m3u8"
    },
    {
     "tvUrlTips" : "高清" ,
