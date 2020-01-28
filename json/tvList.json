@@ -4,7 +4,7 @@
   "tvName" : "顶级科幻电影",
   "tvList" : [
    {
-    "tvUrlTips" : "高清B" ,
+    "tvUrlTips" : "FHD" ,
     "tvUrl" : "https://aldirect.hls.huya.com/huyalive/28466698-2689656864-11551988268341919744-2847699194-10057-A-0-1_1200.m3u8"
    }
   ]
@@ -14,7 +14,7 @@
   "tvName" : "黑莓动画",
   "tvList" : [
    {
-    "tvUrlTips" : "高清B" ,
+    "tvUrlTips" : "FHD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225662/index.m3u8"
    }
   ]
@@ -24,17 +24,17 @@
   "tvName" : "黑莓电影",
   "tvList" : [
    {
-    "tvUrlTips" : "高清B" ,
+    "tvUrlTips" : "FHD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225667/index.m3u8"
    }
   ]
  },
  {
   "uiType" : "NotEPG",
-  "tvName" : "电竞频道",
+  "tvName" : "黑莓电竞",
   "tvList" : [
    {
-    "tvUrlTips" : "高清B" ,
+    "tvUrlTips" : "FHD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225675/index.m3u8"
    }
   ]
@@ -44,17 +44,17 @@
   "tvName" : "NewTV 精品大剧",
   "tvList" : [
    {
-    "tvUrlTips" : "高清B" ,
+    "tvUrlTips" : "FHD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225670/index.m3u8"
    }
   ]
  },
  {
   "uiType" : "NotEPG",
-  "tvName" : "NewTV 搏击",
+  "tvName" : "NewTV 搏击剧场",
   "tvList" : [
    {
-    "tvUrlTips" : "高清B" ,
+    "tvUrlTips" : "FHD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225680/index.m3u8"
    }
   ]
@@ -64,7 +64,7 @@
   "tvName" : "NewTV 金牌综艺",
   "tvList" : [
    {
-    "tvUrlTips" : "高清B" ,
+    "tvUrlTips" : "FHD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225666/index.m3u8"
    }
   ]
@@ -74,7 +74,7 @@
   "tvName" : "NewTV 精品记录",
   "tvList" : [
    {
-    "tvUrlTips" : "高清B" ,
+    "tvUrlTips" : "FHD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225672/index.m3u8"
    }
   ]
@@ -84,7 +84,7 @@
   "tvName" : "NewTV 军事评论",
   "tvList" : [
    {
-    "tvUrlTips" : "高清B" ,
+    "tvUrlTips" : "FHD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225668/index.m3u8"
    }
   ]
@@ -94,7 +94,7 @@
   "tvName" : "灾难电影",
   "tvList" : [
    {
-    "tvUrlTips" : "高清B" ,
+    "tvUrlTips" : "FHD" ,
     "tvUrl" : "https://aldirect.hls.huya.com/huyalive/29106097-2689453724-11551115788685410304-2847687506-10057-A-1525422901-1_1200.m3u8"
    }
   ]
@@ -106,12 +106,12 @@
   "tvLogo" : "hn.png" ,
   "tvList" : [
    {
-    "tvUrlTips" : "高清A" ,
+    "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225610/index.m3u8"
    },
    {
-    "tvUrlTips" : "高清B" ,
-    "tvUrl" : "http://125.210.152.18:9090/live/HNWSHD_H265.m3u8"
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226241/1.m3u8"
    }
   ]
  },
@@ -122,12 +122,12 @@
   "tvLogo" : "zj.png" ,
   "tvList" : [
    {
-    "tvUrlTips" : "高清A" ,
+    "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225612/index.m3u8"
    },
    {
-    "tvUrlTips" : "高清B" ,
-    "tvUrl" : "http://125.210.152.18:9090/live/ZJWSHD_H265.m3u8"
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226247/1.m3u8"
    },
    {
     "tvUrlTips" : "流畅" ,
@@ -142,12 +142,12 @@
   "tvLogo" : "df.png" ,
   "tvList" : [
    {
-    "tvUrlTips" : "高清A" ,
+    "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225700/index.m3u8"
    },
    {
-    "tvUrlTips" : "高清B" ,
-    "tvUrl" : "http://125.210.152.18:9090/live/DFWSHD_H265.m3u8"
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226237/1.m3u8"
    },
    {
     "tvUrlTips" : "流畅" ,
@@ -162,12 +162,12 @@
   "tvLogo" : "bj.png" ,
   "tvList" : [
    {
-    "tvUrlTips" : "高清A" ,
-    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225651/index.m3u8"
+    "tvUrlTips" : "HD" ,
+    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225728/index.m3u8"
    },
    {
-    "tvUrlTips" : "高清B" ,
-    "tvUrl" : "http://125.210.152.18:9090/live/BJWSHD_H265.m3u8"
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226224/1.m3u8"
    },
    {
     "tvUrlTips" : "流畅" ,
@@ -182,16 +182,32 @@
   "tvLogo" : "ah.png" ,
   "tvList" : [
    {
-    "tvUrlTips" : "高清BA" ,
+    "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225727/index.m3u8"
    },
    {
-    "tvUrlTips" : "高清BB" ,
-    "tvUrl" : "http://125.210.152.18:9090/live/AHWSHD_H265.m3u8"
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226223/1.m3u8"
    },
    {
     "tvUrlTips" : "流畅" ,
     "tvUrl" : "http://cctvksh5ca.v.kcdnvip.com/wstv/anhui_2/index.m3u8?contentid=2820180516001"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "江苏卫视" ,
+  "epgIndex" : "jiangsu" ,
+  "tvLogo" : "js.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "HD" ,
+    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225613/index.m3u8"
+   },
+   {
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226242/1.m3u8"
    }
   ]
  },
@@ -202,11 +218,11 @@
   "tvLogo" : "c1.png" ,
   "tvList" : [
    {
-    "tvUrlTips" : "高清A" ,
+    "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225587/index.m3u8"   },
    {
-    "tvUrlTips" : "高清B" ,
-    "tvUrl" : "http://125.210.152.18:9090/live/CCTV1HD_H265.m3u8"
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226226/1.m3u8"
    },
    {
     "tvUrlTips" : "流畅" ,
@@ -221,12 +237,12 @@
   "tvLogo" : "c5.png" ,
   "tvList" : [
    {
-    "tvUrlTips" : "高清A" ,
+    "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225591/index.m3u8"
    },
    {
-    "tvUrlTips" : "高清B" ,
-    "tvUrl" : "http://117.156.28.21/PLTV/88888888/224/3221225635/index.m3u8"
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226256/1.m3u8"
    },
    {
     "tvUrlTips" : "流畅" ,
@@ -241,12 +257,12 @@
   "tvLogo" : "c5p.png" ,
   "tvList" : [
    {
-    "tvUrlTips" : "高清A" ,
+    "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225603/index.m3u8"
    },
    {
-    "tvUrlTips" : "高清B" ,
-    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221225938/1.m3u8"
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226225/1.m3u8"
    },
    {
     "tvUrlTips" : "流畅" ,
@@ -261,16 +277,12 @@
   "tvLogo" : "c6.png" ,
   "tvList" : [
    {
-    "tvUrlTips" : "高清A" ,
+    "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225607/index.m3u8"
    },
    {
-    "tvUrlTips" : "高清B" ,
+    "tvUrlTips" : "FHD" ,
     "tvUrl" : "http://117.156.28.21/PLTV/88888888/224/3221225634/index.m3u8"
-   },
-   {
-    "tvUrlTips" : "流畅" ,
-    "tvUrl" : "http://cctv5alih5ca.v.myalicdn.com/live/cctv8_2/index.m3u8"
    }
   ]
  },
@@ -281,11 +293,11 @@
   "tvLogo" : "c8.png" ,
   "tvList" : [
    {
-    "tvUrlTips" : "高清A" ,
+    "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225608/index.m3u8"
    },
    {
-    "tvUrlTips" : "高清B" ,
+    "tvUrlTips" : "FHD" ,
     "tvUrl" : "http://125.210.152.18:9090/live/CCTV8HD_H265.m3u8"
    },
    {
@@ -301,12 +313,12 @@
   "tvLogo" : "c12.png" ,
   "tvList" : [
    {
-    "tvUrlTips" : "高清A" ,
-    "tvUrl" : "http://125.210.152.18:9090/live/CCTV12HD_H265.m3u8"
+    "tvUrlTips" : "HD" ,
+    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225731/index.m3u8",
    },
    {
-    "tvUrlTips" : "高清B" ,
-    "tvUrl" : "http://39.135.36.153:18890/000000001000/5325631075193490169/1.m3u8?channel-id=ystenlive&Contentid=5325631075193490169&livemode=1&stbId=005203FF000360100001001A34C0CD33&userToken=bd8bb70bdb2b54bd84b587dffa024f7621vv&usergroup=g21077200000&version=1.0&owaccmark=5325631075193490169&owchid=ystenlive&owsid=1106497909461165978&AuthInfo=yOLXJswzZFfV3FvB8MhHuElKGJKLbU5H0jB3qAhfSE7Q36zc4fu7NwQ%2fn1v2mTHqagOL8gLhzmY66HLCxgy24bGH5Xn1D6yEQdwViWmtBz15WRKuKxWsf0XH20JE0dby"
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226228/1.m3u8"
    },
    {
     "tvUrlTips" : "流畅" ,
