@@ -4,7 +4,7 @@
   "tvName" : "顶级科幻电影",
   "tvList" : [
    {
-    "tvUrlTips" : "FHD" ,
+    "tvUrlTips" : "标准" ,
     "tvUrl" : "https://aldirect.hls.huya.com/huyalive/28466698-2689656864-11551988268341919744-2847699194-10057-A-0-1_1200.m3u8"
    }
   ]
@@ -14,7 +14,7 @@
   "tvName" : "黑莓动画",
   "tvList" : [
    {
-    "tvUrlTips" : "FHD" ,
+    "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225662/index.m3u8"
    }
   ]
@@ -24,7 +24,7 @@
   "tvName" : "黑莓电影",
   "tvList" : [
    {
-    "tvUrlTips" : "FHD" ,
+    "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225667/index.m3u8"
    }
   ]
@@ -34,8 +34,12 @@
   "tvName" : "黑莓电竞",
   "tvList" : [
    {
-    "tvUrlTips" : "FHD" ,
+    "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225675/index.m3u8"
+   },
+   {
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226250/1.m3u8"
    }
   ]
  },
@@ -44,7 +48,7 @@
   "tvName" : "NewTV 精品大剧",
   "tvList" : [
    {
-    "tvUrlTips" : "FHD" ,
+    "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225670/index.m3u8"
    }
   ]
@@ -54,7 +58,7 @@
   "tvName" : "NewTV 搏击剧场",
   "tvList" : [
    {
-    "tvUrlTips" : "FHD" ,
+    "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225680/index.m3u8"
    }
   ]
@@ -64,7 +68,7 @@
   "tvName" : "NewTV 金牌综艺",
   "tvList" : [
    {
-    "tvUrlTips" : "FHD" ,
+    "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225666/index.m3u8"
    }
   ]
@@ -74,7 +78,7 @@
   "tvName" : "NewTV 精品记录",
   "tvList" : [
    {
-    "tvUrlTips" : "FHD" ,
+    "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225672/index.m3u8"
    }
   ]
@@ -84,7 +88,7 @@
   "tvName" : "NewTV 军事评论",
   "tvList" : [
    {
-    "tvUrlTips" : "FHD" ,
+    "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225668/index.m3u8"
    }
   ]
@@ -94,7 +98,7 @@
   "tvName" : "灾难电影",
   "tvList" : [
    {
-    "tvUrlTips" : "FHD" ,
+    "tvUrlTips" : "标准" ,
     "tvUrl" : "https://aldirect.hls.huya.com/huyalive/29106097-2689453724-11551115788685410304-2847687506-10057-A-1525422901-1_1200.m3u8"
    }
   ]
@@ -297,7 +301,7 @@
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225608/index.m3u8"
    },
    {
-    "tvUrlTips" : "FHD" ,
+    "tvUrlTips" : "标准" ,
     "tvUrl" : "http://125.210.152.18:9090/live/CCTV8HD_H265.m3u8"
    },
    {
