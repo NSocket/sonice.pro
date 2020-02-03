@@ -1,11 +1,21 @@
 [
  {
   "uiType" : "NotEPG",
-  "tvName" : "顶级科幻电影",
+  "tvName" : "科幻电影",
   "tvList" : [
    {
     "tvUrlTips" : "标准" ,
     "tvUrl" : "https://aldirect.hls.huya.com/huyalive/28466698-2689656864-11551988268341919744-2847699194-10057-A-0-1_1200.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "灾难电影",
+  "tvList" : [
+   {
+    "tvUrlTips" : "标准" ,
+    "tvUrl" : "https://aldirect.hls.huya.com/huyalive/29106097-2689453724-11551115788685410304-2847687506-10057-A-1525422901-1_1200.m3u8"
    }
   ]
  },
@@ -90,16 +100,6 @@
    {
     "tvUrlTips" : "HD" ,
     "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225668/index.m3u8"
-   }
-  ]
- },
- {
-  "uiType" : "NotEPG",
-  "tvName" : "灾难电影",
-  "tvList" : [
-   {
-    "tvUrlTips" : "标准" ,
-    "tvUrl" : "https://aldirect.hls.huya.com/huyalive/29106097-2689453724-11551115788685410304-2847687506-10057-A-1525422901-1_1200.m3u8"
    }
   ]
  },
