@@ -1,6 +1,6 @@
 [
   {
-    "name" : "ok",
+    "name" : "紧急BUG通知",
     "host" : "http://www.okzyw.com",
     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
     "charType" : "utf-8",
@@ -9,7 +9,7 @@
     "itemRegex" : "checked=\"\" />(.*)\\$(.*\\.m3u8)</li>"
   },
  {
-    "name" : "卧龙",
+    "name" : "用户无法收到升级信息",
     "host" : "http://www.vodsee.com",
     "searchUrl" : "/search.html?searchword={SearchWord}",
     "charType" : "utf-8",
@@ -18,7 +18,7 @@
     "itemRegex" : "value=\"(.*)\\$(http(s)?://.*\\.m3u8)\" checked"
   },
   {
-    "name" : "398",
+    "name" : "为不影响体验请尽快升级",
     "host" : "http://398.net",
     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
     "charType" : "utf-8",
@@ -27,7 +27,7 @@
     "itemRegex" : "checked=\"\">(.*)\\$(http(s)?://.*\\.m3u8)</li>"
   },
   {
-    "name" : "最大",
+    "name" : "帮我转告附近的搜视用户",
     "host" : "http://www.zuidazy2.net",
     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
     "charType" : "utf-8",
@@ -36,7 +36,7 @@
     "itemRegex" : "checked=\"\" />(.*)\\$(.*\\.m3u8)</li>"
   },
   {
-    "name" : "123",
+    "name" : "956289075",
     "host" : "http://www.123ku.com",
     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
     "charType" : "utf-8",
@@ -45,7 +45,7 @@
     "itemRegex" : "target=\"_black\">(.*)\\$(.*\\.m3u8)</a>"
   },
   {
-    "name" : "最新",
+    "name" : "速加搜视Pro官方群",
     "host" : "http://www.zuixinzy.com",
     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
     "charType" : "utf-8",
@@ -54,7 +54,7 @@
     "itemRegex" : "checked=\"\" />(.*)\\$(.*\\.m3u8)</li>"
   },
   {
-    "name" : "哈酷",
+    "name" : "致以最诚挚的歉意",
     "host" : "http://www.666zy.com",
     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
     "charType" : "utf-8",
@@ -63,7 +63,7 @@
     "itemRegex" : "target=\"_blank\">(.*)\\$(.*\\.m3u8)</a></li>"
   },
   {
-    "name" : "秒播",
+    "name" : "因版本Bug",
     "host" : "http://www.mbkkk.com",
     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
     "charType" : "utf-8",
@@ -72,7 +72,7 @@
     "itemRegex" : "target=\"_blank\" />(.*)\\$(.*\\.m3u8)</li></a>"
   },
   {
-    "name" : "酷云",
+    "name" : "我错了！",
     "host" : "http://www.kuyunzyw.tv",
     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
     "charType" : "utf-8",
