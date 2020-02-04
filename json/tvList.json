@@ -11,7 +11,7 @@
  },
  {
   "uiType" : "NotEPG",
-  "tvName" : "因版本Bug",
+  "tvName" : "因版本Bug需要手动升级",
   "tvList" : [
    {
     "tvUrlTips" : "标准" ,
@@ -21,7 +21,7 @@
  },
  {
   "uiType" : "NotEPG",
-  "tvName" : "无法收到升级信息",
+  "tvName" : "浏览器输入http://sonice.pro",
   "tvList" : [
    {
     "tvUrlTips" : "HD" ,
@@ -31,7 +31,7 @@
  },
  {
   "uiType" : "NotEPG",
-  "tvName" : "速加搜视Pro官方群",
+  "tvName" : "或者加搜视Pro官方群",
   "tvList" : [
    {
     "tvUrlTips" : "HD" ,
@@ -41,7 +41,7 @@
  },
  {
   "uiType" : "NotEPG",
-  "tvName" : "956289075",
+  "tvName" : "群号：956289075",
   "tvList" : [
    {
     "tvUrlTips" : "HD" ,
@@ -50,78 +50,24 @@
   ]
  },
  {
-  "uiType" : "NotEPG",
-  "tvName" : "帮我转告附近的搜视用户",
-  "tvList" : [
-   {
-    "tvUrlTips" : "HD" ,
-    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225675/index.m3u8"
-   },
-   {
-    "tvUrlTips" : "FHD" ,
-    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226250/1.m3u8"
-   }
-  ]
- },
- {
-  "uiType" : "NotEPG",
-  "tvName" : "为不影响体验请尽快升级",
-  "tvList" : [
-   {
-    "tvUrlTips" : "HD" ,
-    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225670/index.m3u8"
-   }
-  ]
- },
- {
-  "uiType" : "NotEPG",
-  "tvName" : "致以最诚挚的歉意",
-  "tvList" : [
-   {
-    "tvUrlTips" : "HD" ,
-    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225680/index.m3u8"
-   }
-  ]
- },
- {
-  "uiType" : "NotEPG",
-  "tvName" : "我错了！",
-  "tvList" : [
-   {
-    "tvUrlTips" : "HD" ,
-    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225672/index.m3u8"
-   }
-  ]
- },
- {
-  "uiType" : "NotEPG",
-  "tvName" : "我错了！",
-  "tvList" : [
-   {
-    "tvUrlTips" : "HD" ,
-    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225668/index.m3u8"
-   }
-  ]
- },
+ "uiType" : "Normal" ,
+ "tvName" : "湖南卫视" ,
+ "epgIndex" : "hunan" ,
+ "tvLogo" : "hn.png" ,
+ "tvList" : [
+  {
+   "tvUrlTips" : "HD" ,
+   "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225610/index.m3u8"
+  },
+  {
+   "tvUrlTips" : "FHD" ,
+   "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226241/1.m3u8"
+  }
+ ]
+},
  {
   "uiType" : "Normal" ,
-  "tvName" : "紧急BUG通知" ,
-  "epgIndex" : "hunan" ,
-  "tvLogo" : "hn.png" ,
-  "tvList" : [
-   {
-    "tvUrlTips" : "HD" ,
-    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225610/index.m3u8"
-   },
-   {
-    "tvUrlTips" : "FHD" ,
-    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226241/1.m3u8"
-   }
-  ]
- },
- {
-  "uiType" : "Normal" ,
-  "tvName" : "因版本Bug" ,
+  "tvName" : "浙江卫视" ,
   "epgIndex" : "zhejiang" ,
   "tvLogo" : "zj.png" ,
   "tvList" : [
@@ -141,7 +87,7 @@
  },
  {
   "uiType" : "Normal" ,
-  "tvName" : "无法收到升级信息" ,
+  "tvName" : "上海东方卫视" ,
   "epgIndex" : "dongfang" ,
   "tvLogo" : "df.png" ,
   "tvList" : [
@@ -161,7 +107,7 @@
  },
  {
   "uiType" : "Normal" ,
-  "tvName" : "速加搜视Pro官方群" ,
+  "tvName" : "北京卫视" ,
   "epgIndex" : "btv1" ,
   "tvLogo" : "bj.png" ,
   "tvList" : [
@@ -181,7 +127,7 @@
  },
  {
   "uiType" : "Normal" ,
-  "tvName" : "956289075" ,
+  "tvName" : "安徽卫视" ,
   "epgIndex" : "anhui" ,
   "tvLogo" : "ah.png" ,
   "tvList" : [
@@ -201,7 +147,7 @@
  },
  {
   "uiType" : "Normal" ,
-  "tvName" : "帮我转告附近的搜视用户" ,
+  "tvName" : "江苏卫视" ,
   "epgIndex" : "jiangsu" ,
   "tvLogo" : "js.png" ,
   "tvList" : [
@@ -217,7 +163,7 @@
  },
  {
   "uiType" : "Normal" ,
-  "tvName" : "为不影响体验请尽快升级" ,
+  "tvName" : "CCTV-1 综合" ,
   "epgIndex" : "cctv1" ,
   "tvLogo" : "c1.png" ,
   "tvList" : [
@@ -236,7 +182,7 @@
  },
  {
   "uiType" : "Normal" ,
-  "tvName" : "致以最诚挚的歉意" ,
+  "tvName" : "CCTV-5 体育" ,
   "epgIndex" : "cctv5" ,
   "tvLogo" : "c5.png" ,
   "tvList" : [
@@ -256,7 +202,7 @@
  },
  {
   "uiType" : "Normal" ,
-  "tvName" : "我错了！" ,
+  "tvName" : "CCTV-5+ 体育赛事" ,
   "epgIndex" : "cctv5plus" ,
   "tvLogo" : "c5p.png" ,
   "tvList" : [
@@ -276,7 +222,7 @@
  },
  {
   "uiType" : "Normal" ,
-  "tvName" : "我错了！" ,
+  "tvName" : "CCTV-6 电影" ,
   "epgIndex" : "cctv6" ,
   "tvLogo" : "c6.png" ,
   "tvList" : [
@@ -292,7 +238,7 @@
  },
  {
   "uiType" : "Normal" ,
-  "tvName" : "我错了！" ,
+  "tvName" : "CCTV-8 电视剧" ,
   "epgIndex" : "cctv8" ,
   "tvLogo" : "c8.png" ,
   "tvList" : [
@@ -312,7 +258,7 @@
  },
  {
   "uiType" : "Normal" ,
-  "tvName" : "我错了！" ,
+  "tvName" : "CCTV-12 社会与法" ,
   "epgIndex" : "cctv12" ,
   "tvLogo" : "c12.png" ,
   "tvList" : [
