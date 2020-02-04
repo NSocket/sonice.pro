@@ -1,6 +1,6 @@
 {
   "title" : "搜视Pro稳定版",
-  "version" : "20.01.24",
+  "version" : "20.02.04 稳定版",
   "info" : "<font color=#00a8f3>如果没有大bug将不再更新app，日后仅维护</font><br><font color=#ff0000>请在2月15号以前完成升级，否则部分功能将失效</font><br>QQ群：<font color=#00a8f3>956289075</font><br>新增安卓7以上前台下载<br>新增多出断网等异常提示<br>新增极速缓存下按下载自动转存<br>新增大量短视频<br>修复极速模式无法使用的情况<br>修复锁屏时按退出的异常表现<br>修复播放界面连续退出的异常<br>优化部分UI",
   "url" : "http://sonice.pro/html/open-download.html?time=200204",
   "visible" : true,
