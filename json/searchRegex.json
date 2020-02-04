@@ -1,6 +1,6 @@
 [
   {
-    "name" : "因Bug需更新，浏览器输入http://sonice.pro",
+    "name" : "因Bug需浏览器输入http://sonice.pro下载最新版",
     "host" : "http://www.okzyw.com",
     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
     "charType" : "utf-8",
@@ -18,7 +18,7 @@
     "itemRegex" : "value=\"(.*)\\$(http(s)?://.*\\.m3u8)\" checked"
   },
   {
-    "name" : "因Bug需更新，浏览器输入http://sonice.pro",
+    "name" : "因Bug需浏览器输入http://sonice.pro下载最新版",
     "host" : "http://398.net",
     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
     "charType" : "utf-8",
@@ -36,7 +36,7 @@
     "itemRegex" : "checked=\"\" />(.*)\\$(.*\\.m3u8)</li>"
   },
   {
-    "name" : "因Bug需更新，浏览器输入http://sonice.pro",
+    "name" : "因Bug需浏览器输入http://sonice.pro下载最新版",
     "host" : "http://www.123ku.com",
     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
     "charType" : "utf-8",
@@ -54,7 +54,7 @@
     "itemRegex" : "checked=\"\" />(.*)\\$(.*\\.m3u8)</li>"
   },
   {
-    "name" : "因Bug需更新，浏览器输入http://sonice.pro",
+    "name" : "因Bug需浏览器输入http://sonice.pro下载最新版",
     "host" : "http://www.666zy.com",
     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
     "charType" : "utf-8",
@@ -72,7 +72,7 @@
     "itemRegex" : "target=\"_blank\" />(.*)\\$(.*\\.m3u8)</li></a>"
   },
   {
-    "name" : "因Bug需更新，浏览器输入http://sonice.pro",
+    "name" : "因Bug需浏览器输入http://sonice.pro下载最新版",
     "host" : "http://www.kuyunzyw.tv",
     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
     "charType" : "utf-8",
