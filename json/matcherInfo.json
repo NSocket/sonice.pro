@@ -79,5 +79,14 @@
     "lineBreak" : true,
     "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a>\n</td>\n<td align=\"center\"><font color=\"#000\">.*</font>\\n</td>\n<td align=\"center\"><a href=\".*\" target=\"_blank\">(.*)</a>",
     "itemRegex" : "<a>(.*)\\$(.*\\.m3u8)</a>"
+  },
+  {
+    "name" : "1886",
+    "host" : "http://www.1886zy.net",
+    "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}",
+    "charType" : "utf-8",
+    "lineBreak" : false,
+    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)<font color=\"red\">.*</font>\n\\s*<td><a href=\".*\" target=\"_blank\">(.*)</a></td>",
+    "itemRegex" : "value=\"(.*?)\\$(http(s)?://.*?\\.m3u8)\""
   }
 ]
