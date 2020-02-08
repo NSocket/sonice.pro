@@ -36,15 +36,6 @@
     "itemRegex" : "checked=\"\" />(.*)\\$(.*\\.m3u8)</li>"
   },
   {
-    "name" : "123",
-    "host" : "http://www.123ku.com",
-    "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
-    "charType" : "utf-8",
-    "lineBreak" : false,
-    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a></span> <span class=\"xing_vb5\">(.*)</span>",
-    "itemRegex" : "target=\"_black\">(.*)\\$(.*\\.m3u8)</a>"
-  },
-  {
     "name" : "最新",
     "host" : "http://www.zuixinzy.com",
     "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
@@ -88,5 +79,23 @@
     "lineBreak" : false,
     "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)<font color=\"red\">.*</font>\n\\s*<td><a href=\".*\" target=\"_blank\">(.*)</a></td>",
     "itemRegex" : "value=\"(.*?)\\$(http(s)?://.*?\\.m3u8)\""
+  },
+  {
+  "name" : "123",
+  "host" : "http://www.123ku.com",
+  "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
+  "charType" : "utf-8",
+  "lineBreak" : false,
+  "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a></span> <span class=\"xing_vb5\">(.*)</span>",
+  "itemRegex" : "target=\"_black\">(.*)\\$(.*\\.m3u8)</a>"
+  },
+  {
+    "name" : "209",
+    "host" : "http://www.1156zy.com",
+    "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
+    "charType" : "utf-8",
+    "lineBreak" : false,
+    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a></span> <span class=\"xing_vb5\">(.*)</span>",
+    "itemRegex" : "checked=\"\" />(.*)\\$(http(s)?://.*\\.m3u8)</li>"
   }
 ]
