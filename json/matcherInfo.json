@@ -97,5 +97,23 @@
     "lineBreak" : false,
     "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)</a></span> <span class=\"xing_vb5\">(.*)</span>",
     "itemRegex" : "checked=\"\" />(.*)\\$(http(s)?://.*\\.m3u8)</li>"
+  },
+  {
+    "name" : "265",
+    "host" : "http://265zy.cc",
+    "searchUrl" : "/index.php?m=vod-search&wd={SearchWord}&submit=search",
+    "charType" : "utf-8",
+    "lineBreak" : false,
+    "resultRegex" : "<a href=\"(.*\\.html)\" target=\"_blank\">(.*)<font color=\"red\">.*</font></a></span><span class=\"xing_vb5\">.*</span> <span class=\"xing_vb5\"><a href=\".*\">(.*)</a></span>",
+    "itemRegex" : "target=\"_blank\">(.*)\\$(http(s)?://.*\\.m3u8)</a></li>"
+  },
+  {
+    "name" : "搜乐",
+    "host" : "http://solezy.com",
+    "searchUrl" : "/index.php/vod/search.html?wd={SearchWord}&submit=",
+    "charType" : "utf-8",
+    "lineBreak" : false,
+    "resultRegex" : "<a href=\"(.*\\.html)\" title=\"(.*)\">.*</em></a>\n</h3>\n<span class=\"type\">\n<a href=\".*\">(.*)</a>",
+    "itemRegex" : "class=\"copy_text\">(.*)<span class=\"hidden-xs\">\\$(http(s)?://.*\\.m3u8)</span>"
   }
 ]
