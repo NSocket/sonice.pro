@@ -1,7 +1,7 @@
 {
   "title" : "搜视Pro紧急修复版",
   "version" : "20.02.19 稳定版",
-  "info" : "<font color=#00a8f3>因来源域名异常，搜索无法使用，现已修复</font><br><font color=#ff0000>为保证您的正常使用请尽快升级</font><br>QQ群：<font color=#00a8f3>956289075</font><br>修复安卓8以下UI显示异常<br>新增演员详细信息<br>新增竖屏播放和自动转屏<br>新增安卓8以下下载提示栏<br>新增关闭嗅探模式的设置<br>优化部分动画,
+  "info" : "<font color=#00a8f3>因来源域名异常，搜索无法使用，现已修复</font><br><font color=#ff0000>为保证您的正常使用请尽快升级</font><br>QQ群：<font color=#00a8f3>956289075</font><br>修复安卓8以下UI显示异常<br>新增演员详细信息<br>新增竖屏播放和自动转屏<br>新增安卓8以下下载提示栏<br>新增关闭嗅探模式的设置<br>优化资源匹配规则<br>优化部分动画,
   "url" : "http://sonice.pro/html/open-download.html?time=200219",
   "visible" : true,
   "cancelable" : true
