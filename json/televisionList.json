@@ -1,0 +1,306 @@
+[
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "科幻电影",
+  "tvList" : [
+   {
+    "tvUrlTips" : "标准" ,
+    "tvUrl" : "https://aldirect.hls.huya.com/huyalive/28466698-2689656864-11551988268341919744-2847699194-10057-A-0-1_1200.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "华城电影",
+  "tvList" : [
+   {
+    "tvUrlTips" : "标准" ,
+    "tvUrl" : "http://by4.nty.tv189.cn/tm-cridyty-800k.m3u8?cdntag=dxy"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "黑莓动画",
+  "tvList" : [
+   {
+    "tvUrlTips" : "HD" ,
+    "tvUrl" : "http://111.40.205.87/PLTV/88888888/224/3221225662/index.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "黑莓电影",
+  "tvList" : [
+   {
+    "tvUrlTips" : "HD" ,
+    "tvUrl" : "http://183.207.249.14/PLTV/3/224/3221225567/index.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "黑莓电竞",
+  "tvList" : [
+   {
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226250/1.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "NewTV 电视剧",
+  "tvList" : [
+   {
+    "tvUrlTips" : "HD" ,
+    "tvUrl" : "http://ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221225864/1.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "NewTV 世界搏击",
+  "tvList" : [
+   {
+    "tvUrlTips" : "HD" ,
+    "tvUrl" : "http://ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226320/1.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "NewTV 金牌综艺",
+  "tvList" : [
+   {
+    "tvUrlTips" : "HD" ,
+    "tvUrl" : "http://ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221225920/1.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "NewTV 超级电影",
+  "tvList" : [
+   {
+    "tvUrlTips" : "HD" ,
+    "tvUrl" : "http://ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221226133/1.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "NotEPG",
+  "tvName" : "NewTV 精品体育",
+  "tvList" : [
+   {
+    "tvUrlTips" : "HD" ,
+    "tvUrl" : "http://ywotttv.bj.chinamobile.com/PLTV/88888888/224/3221225922/1.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "湖南卫视" ,
+  "epgIndex" : "hunan" ,
+  "tvLogo" : "hn.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226241/1.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "浙江卫视" ,
+  "epgIndex" : "zhejiang" ,
+  "tvLogo" : "zj.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226247/1.m3u8"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "http://yf.m.l.cztv.com/channels/lantian/channel01/360p.m3u8?k=b2c68d6137bd071d16e09ad518643db6&t=1574173730"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "上海东方卫视" ,
+  "epgIndex" : "dongfang" ,
+  "tvLogo" : "df.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226237/1.m3u8"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "http://cctvalih5ca.v.myalicdn.com/wstv/dongfang_2/index.m3u8?contentid=2820180516001"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "北京卫视" ,
+  "epgIndex" : "btv1" ,
+  "tvLogo" : "bj.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226224/1.m3u8"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "http://cctvbsh5ca.v.live.baishancdnx.cn/wstv/btv1_2/index.m3u8?contentid=2820180516001"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "安徽卫视" ,
+  "epgIndex" : "anhui" ,
+  "tvLogo" : "ah.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226223/1.m3u8"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "http://cctvksh5ca.v.kcdnvip.com/wstv/anhui_2/index.m3u8?contentid=2820180516001"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "江苏卫视" ,
+  "epgIndex" : "jiangsu" ,
+  "tvLogo" : "js.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226242/1.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "CCTV-1 综合" ,
+  "epgIndex" : "cctv1" ,
+  "tvLogo" : "c1.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226226/1.m3u8"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "https://cctvcnch5ca.v.wscdns.com/live/cctv1_2/index.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "CCTV-2 财经" ,
+  "epgIndex" : "cctv2" ,
+  "tvLogo" : "c2.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000203603.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "CCTV-5 体育" ,
+  "epgIndex" : "cctv5" ,
+  "tvLogo" : "c5.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226256/1.m3u8"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "http://cctv5alih5ca.v.myalicdn.com/live/cctv5_2/index.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "CCTV-5+ 体育赛事" ,
+  "epgIndex" : "cctv5plus" ,
+  "tvLogo" : "c5p.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226225/1.m3u8"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "http://cctv5alih5ca.v.myalicdn.com/live/cctv5plus_2/index.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "CCTV-6 电影" ,
+  "epgIndex" : "cctv6" ,
+  "tvLogo" : "c6.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://117.156.28.21/PLTV/88888888/224/3221225634/index.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "CCTV-8 电视剧" ,
+  "epgIndex" : "cctv8" ,
+  "tvLogo" : "c8.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "标准" ,
+    "tvUrl" : "http://125.210.152.18:9090/live/CCTV8HD_H265.m3u8"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "http://cctv5alih5ca.v.myalicdn.com/live/cctv8_2/index.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "CCTV-12 社会与法" ,
+  "epgIndex" : "cctv12" ,
+  "tvLogo" : "c12.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://otttv.bj.chinamobile.com/PLTV/88888888/224/3221226228/1.m3u8"
+   },
+   {
+    "tvUrlTips" : "流畅" ,
+    "tvUrl" : "http://cctv5alih5ca.v.myalicdn.com/live/cctv12_2/index.m3u8"
+   }
+  ]
+ },
+ {
+  "uiType" : "Normal" ,
+  "tvName" : "CCTV-13 新闻" ,
+  "epgIndex" : "cctv13" ,
+  "tvLogo" : "c13.png" ,
+  "tvList" : [
+   {
+    "tvUrlTips" : "FHD" ,
+    "tvUrl" : "http://221.230.141.252/live-cnc-cdn.ysp.cctv.cn/ysp/2000204603.m3u8"
+   }
+  ]
+ }
+]

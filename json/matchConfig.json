@@ -1,0 +1,47 @@
+[
+  {
+    "matchType": "MacCMS",
+    "name": "苹果",
+    "searchUrl": "http://45.195.25.75/maccms/api.php/provide/vod/?ac=detail&wd={SearchWord}",
+    "matchSource": "超清m3u8",
+    "jsonArrayIndex": "list"
+  },
+  {
+    "matchType": "MacCMS",
+    "name": "备用",
+    "searchUrl": "https://cj.wlzy.tv/api/macs/vod/?ac=detail&wd={SearchWord}",
+    "matchSource": "wlm3u8",
+    "jsonArrayIndex": "list"
+  },
+  {
+    "matchType": "MacCMS",
+    "name": "果汁",
+    "searchUrl": "http://103.71.238.176/app/cms/public/?service=App.Mov.SearchVod&key={SearchWord}",
+    "jsonArrayIndex": "Data",
+    "matchSource": "guozhi"
+  },
+  {
+    "matchType": "MacCMS",
+    "name": "麻花",
+    "searchUrl": "http://ht.ka61b.cn/meiju/app/cms/public/?service=App.Mov.SearchVod&key={SearchWord}",
+    "jsonArrayIndex": "Data",
+    "matchSource": "mahua"
+  },
+  {
+    "matchType": "Vid",
+    "name": "卧龙",
+    "searchUrl": "http://v2.tgmmvip.com/wolong/gae/video/search?keyword={SearchWord}",
+    "idUrl": "http://v2.tgmmvip.com/wolong/gae/video/plays?videoId={VideoId}",
+    "finalUrl": "http://v2.tgmmvip.com/wolong/parse/video/play?sign=353627077135682&source={Source}&url={Base64Url}&timestamp={Date}"
+  },
+  {
+    "matchType": "WebPage",
+    "name": "奈菲",
+    "searchUrl": "https://www.nfmovies.com/search.php?searchword={SearchWord}",
+    "sniff": true,
+    "resultVideoRegex": "<h4 class=\"title\"><a href=\"(.*\\.html)\">(.*)</a></h4>",
+    "resultTypeRegex": "<p><span class=\"text-muted\">分类：</span>(.*)<span class=\"split-line\">",
+    "resultYearRegex": "<span class=\"text-muted hidden-xs\">年份：</span>(.*)</p>",
+    "itemRegex": "<li><a title=\"(.*)\" href=\"(.*\\d*-2-\\d*\\.html)\" target=\"_self\">.*</a></li>"
+  }
+]
