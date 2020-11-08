@@ -99,38 +99,35 @@ function Base64() {
 
 var base = new Base64();
 
-var title=getQueryString("title");
-var url=getQueryString("url");
-var header =getQueryString("header");
-var streamType=getQueryString("streamType");
+var title=base.decode(getQueryString("title"));
+var url=base.decode(getQueryString("url"));
+var header =base.decode(getQueryString("header"));
+var streamType=base.decode(getQueryString("streamType"));
 
-document.title=base.decode(title);
+document.title=title;
 
-const request = new XMLHttpRequest();
+
+let request = new XMLHttpRequest();
 request.responseType = 'blob';
-request.open('get', base.decode(url), true);
+request.open('get', url, true);
 
-var json=base.decode(header)
-
-for(var k in json){
-	request.setRequestHeader(k, json[k]);
+for(var k in header){
+	request.setRequestHeader(k, header[k]);
 }
 
-
-request.onreadystatechange=function(){
-	if (request.readyState == XMLHttpRequest.DONE && request.status == 200) {
-		
+request.onreadystatechange = e => {
+    if (request.readyState === XMLHttpRequest.DONE && request.status === 200) {
         const dp = new DPlayer({
             container: document.getElementById('dplayer'),
 			autoplay: true,
 			loop: true,
 			video: {
 				url: URL.createObjectURL(request.response),
-				type: base.decode(streamType)
+				type: streamType
 			}
         });
     }
-}
+};
 request.send(null);
 
 </script>
