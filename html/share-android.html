@@ -66,7 +66,7 @@
   
   <script type="text/javascript">
     function openDownload(){  
-        window.location.href="./open-download.html?time="+new Date().getTime();
+        window.location.href="../index.html";
    }  
   </script>
   
@@ -133,20 +133,46 @@ function Base64() {
  }
 }
 
-var title=getQueryString("title");
-var id=getQueryString("id");
+//base64解码
 var base = new Base64();
 
+//获取链接里包含的数据
+var title=base.decode(getQueryString("title"));
+var url=base.decode(getQueryString("url"));
+var header = base.decode(getQueryString("header"));
+var streamType=base.decode(getQueryString("streamType"));
+
+//设置视频名称
 document.title=base.decode(title);
-const dp = new DPlayer({
-    container: document.getElementById('dplayer'),
-	autoplay: true,
-    loop: true,
-    video: {
-        url: base.decode(id),
-        type: 'hls'
+
+//发送请求
+const request = new XMLHttpRequest();
+request.responseType = 'blob';
+request.open('get', url, true);
+
+//设置header
+for(var k in header){//遍历packJson 对象的每个key/value对,k为key
+	request.setRequestHeader(k, header[k]);
+}
+
+//请求改变后的操作
+request.onreadystatechange=function(){
+	if (request.readyState == XMLHttpRequest.DONE && request.status == 200) {
+		
+		//启动播放器
+        const dp = new DPlayer({
+            container: document.getElementById('dplayer'),
+			autoplay: true,
+			loop: true,
+			video: {
+				url: URL.createObjectURL(request.response),//构建url并播放
+				type: streamType
+			}
+        });
     }
-});
+}
+request.send(null);
+
 </script>
 
   <script>
