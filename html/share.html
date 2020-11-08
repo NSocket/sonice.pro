@@ -22,15 +22,19 @@
         	if (r != null) return decodeURI(r[2]); return null;
 		}
       
+	  	//获取传入参数
     	var title=getQueryString("title");
-		var id=getQueryString("id");
-
+		var url=getQueryString("url");
+		var header=getQueryString("header");
+		var streamType=getQueryString("streamType");
+		
+		//判断ua，打开指定页面
 		var u = navigator.userAgent;
     	if (u.indexOf('Android') != -1) {
         	//安卓手机
-          	window.location.href="./share-android.html?title="+title+"&id="+id;
+          	window.location.href="./share-android.html?title="+title+"&url="+url+"&header="+header+"&streamType="+streamType;
     	}else{
-        	window.location.href="./share-other.html?title="+title+"&id="+id;
+        	window.location.href="./share-other.html?title="+title+"&url="+url+"&header="+header+"&streamType="+streamType;
     	}
     </script>
   </body>
