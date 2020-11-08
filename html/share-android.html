@@ -133,39 +133,32 @@ function Base64() {
  }
 }
 
-//base64解码
 var base = new Base64();
 
-//获取链接里包含的数据
 var title=base.decode(getQueryString("title"));
 var url=base.decode(getQueryString("url"));
-var header = base.decode(getQueryString("header"));
+var header =jQuery.parseJSON(base.decode(getQueryString("header")));
 var streamType=base.decode(getQueryString("streamType"));
 
-//设置视频名称
-document.title=base.decode(title);
+document.title=title;
 
-//发送请求
 const request = new XMLHttpRequest();
 request.responseType = 'blob';
 request.open('get', url, true);
 
-//设置header
-for(var k in header){//遍历packJson 对象的每个key/value对,k为key
-	request.setRequestHeader(k, header[k]);
+for(var k in header){
+	//request.setRequestHeader(k, header[k]);
 }
 
-//请求改变后的操作
 request.onreadystatechange=function(){
 	if (request.readyState == XMLHttpRequest.DONE && request.status == 200) {
 		
-		//启动播放器
         const dp = new DPlayer({
             container: document.getElementById('dplayer'),
 			autoplay: true,
 			loop: true,
 			video: {
-				url: URL.createObjectURL(request.response),//构建url并播放
+				url: URL.createObjectURL(request.response),
 				type: streamType
 			}
         });
