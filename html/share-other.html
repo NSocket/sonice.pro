@@ -34,12 +34,15 @@
 
 <!--JavaScript-->
 <script>
+
+//拆分请求
 function getQueryString(name) {
     var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
     var r = window.location.search.substr(1).match(reg);
     if (r != null) return decodeURI(r[2]); return null;
 }
 
+//base64解码
 function Base64() {
  // private property
  _keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
@@ -96,23 +99,50 @@ function Base64() {
  }
 }
 
-var title=getQueryString("title");
-var id=getQueryString("id");
+//base64解码
 var base = new Base64();
 
+//获取链接里包含的数据
+var title=base.decode(getQueryString("title"));
+var url=base.decode(getQueryString("url"));
+var type=base.decode(getQueryString("type"));
+var json = base.decode(getQueryString("header"));
+
+//设置视频名称
 document.title=base.decode(title);
-const dp = new DPlayer({
-    container: document.getElementById('dplayer'),
-	autoplay: true,
-    loop: true,
-    video: {
-        url: base.decode(id),
-        type: 'hls'
+
+//发送请求
+const request = new XMLHttpRequest();
+request.responseType = 'blob';
+request.open('get', url, true);
+
+//设置header
+for(var k in json ){//遍历packJson 对象的每个key/value对,k为key
+	request.setRequestHeader(k, json[k]);
+}
+
+//请求改变后的操作
+request.onreadystatechange=function(){
+	if (request.readyState == XMLHttpRequest.DONE && request.status == 200) {
+		
+		//启动播放器
+        const dp = new DPlayer({
+            container: document.getElementById('dplayer'),
+			autoplay: true,
+			loop: true,
+			video: {
+				url: URL.createObjectURL(request.response),//构建url并播放
+				type: 'hls'
+			}
+        });
     }
-});
+}
+request.send(null);
+
 </script>
 
   <script>
+  //腾讯移动统计
   	var _mtac = {};
   	(function() {
   		var mta = document.createElement("script");
