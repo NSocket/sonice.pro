@@ -1,0 +1,134 @@
+<html>
+ <head> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" /> 
+  <title>分享</title> 
+ </head> 
+ <body> 
+  <section data-role="paragraph" class="_135editor"> 
+   <p> <br /> </p> 
+  </section> 
+  <section style="padding:10px;" class=""> 
+   <section style="box-sizing:border-box;width: 100%;border: 2px dashed #ccc;text-align: center;padding:20px;border-radius: 10px" data-width="100%" class=""> 
+    <section style="background-color:#f5f6f7; padding:20px 20px; border-radius:10px; color:#878888;" class="135brush"> 
+     <p> 下载软件并安装，安装完成后记得回来点一下“添加订阅”，不然就分享了个寂寞呢。 </p> 
+    </section> 
+   </section> 
+   <section style="/* display: inline-block; *//* transform:rotate(-34deg); */width:15px;height:10px;border-width:0 0 2px 2px;border-color:#ccc;border-style:dashed;background-color: #fff;margin-top: -4px;margin-left: 20px;transform: translateZ(10px);transform: skew(0deg,-40deg);"></section> 
+  </section>  
+  <section data-role="paragraph" class="_135editor"> 
+   <p> <br /> </p> 
+   <section data-width="80%" style="box-sizing:border-box;margin-left: auto; margin-right: auto; width: 80%; flex: 0 0 80%;"> 
+    <section style="margin: 10px auto;text-align: center;"> 
+     <section style="display: flex;justify-content: center;align-items: flex-start;" class=""> 
+      <section style="box-sizing:border-box;width: 50%" data-width="50%" class=""> 
+       <a id="download"> 
+        <section style="display: inline-block;"> 
+         <section style="background: #ff8985;border-radius: 30px;padding-bottom: 5px;"> 
+          <section class="135brush" data-brushtype="text" style="font-size: 16px;letter-spacing: 1.5px;padding: 7px 2em;color: #fff;font-weight: bold;background: #ff4b45;border-radius: 30px;">
+            下载软件 
+          </section> 
+         </section> 
+        </section> </a> 
+      </section> 
+      <section style="box-sizing:border-box;margin-left: 8px;width: 50%;" data-width="50%" class=""> 
+       <a id="subscribe"> 
+        <section style="display: inline-block;"> 
+         <section style="background: #9fc8ff;border-radius: 30px;padding-bottom: 5px;" class=""> 
+          <section class="135brush" data-brushtype="text" style="font-size: 16px;letter-spacing: 1.5px;padding: 7px 2em;color: #fff;font-weight: bold;background: #017dff;border-radius: 30px;">
+            添加订阅 
+          </section> 
+         </section> 
+        </section> </a> 
+      </section> 
+     </section> 
+    </section> 
+   </section> 
+   <section data-role="paragraph" class="_135editor"> 
+    <p> <br /> </p> 
+   </section> 
+   <section style="white-space: normal; padding-left: 10px; max-width: 100%; border-left: 5px solid #aaa; margin: 10px auto; box-sizing: border-box;" class=""> 
+    <section style="font-size: 13px;text-align: justify;letter-spacing: 1px;line-height: 1.75em; color: rgba(102, 102, 102,0.8);" class=""> 
+     <p class="135brush" data-autoskip="1" style="color: #666666; font-size: 14px; letter-spacing: 1.5px; caret-color: red;"> <span style="font-size: 16px;"><strong>申明：禁止将此网络安全工具作为影视软件</strong></span> </p> 
+    </section> 
+   </section> 
+   <section style="white-space: normal; padding-left: 10px; max-width: 100%; border-left: 5px solid #aaa; margin: 10px auto; box-sizing: border-box;"> 
+    <section style="font-size: 13px;text-align: justify;letter-spacing: 1px;line-height: 1.75em; color: rgba(102, 102, 102,0.8);" class=""> 
+     <p class="135brush" data-autoskip="1" style="color: #666666; font-size: 14px; letter-spacing: 1.5px; caret-color: red;"> 此链接由APP根据用户自己添加的第三方订阅链接自动生成，订阅链接数据在此网页的链接内，url中的subscribe为base64加密后的用户数据，即此网页内的订阅链接数据由用户提供。本软件是网络安全工具，用于批量检测自建影视网站的安全性，自身不提供任何形式的订阅链接，且本软件不以营利为目的。 </p> 
+    </section> 
+   </section> 
+   <!--JavaScript--> 
+   <script>
+function getQueryString(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return decodeURI(r[2]); return null;
+}
+
+function Base64() {
+ // private property
+ _keyStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+
+ // public method for decoding
+ this.decode = function (input) {
+  var output = "";
+  var chr1, chr2, chr3;
+  var enc1, enc2, enc3, enc4;
+  var i = 0;
+  input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
+  while (i < input.length) {
+   enc1 = _keyStr.indexOf(input.charAt(i++));
+   enc2 = _keyStr.indexOf(input.charAt(i++));
+   enc3 = _keyStr.indexOf(input.charAt(i++));
+   enc4 = _keyStr.indexOf(input.charAt(i++));
+   chr1 = (enc1 << 2) | (enc2 >> 4);
+   chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);
+   chr3 = ((enc3 & 3) << 6) | enc4;
+   output = output + String.fromCharCode(chr1);
+   if (enc3 != 64) {
+    output = output + String.fromCharCode(chr2);
+   }
+   if (enc4 != 64) {
+    output = output + String.fromCharCode(chr3);
+   }
+  }
+  output = _utf8_decode(output);
+  return output;
+ }
+
+ // private method for UTF-8 decoding
+ _utf8_decode = function (utftext) {
+  var string = "";
+  var i = 0;
+  var c = c1 = c2 = 0;
+  while ( i < utftext.length ) {
+   c = utftext.charCodeAt(i);
+   if (c < 128) {
+    string += String.fromCharCode(c);
+    i++;
+   } else if((c > 191) && (c < 224)) {
+    c2 = utftext.charCodeAt(i+1);
+    string += String.fromCharCode(((c & 31) << 6) | (c2 & 63));
+    i += 2;
+   } else {
+    c2 = utftext.charCodeAt(i+1);
+    c3 = utftext.charCodeAt(i+2);
+    string += String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
+    i += 3;
+   }
+  }
+  return string;
+ }
+}
+
+var download=getQueryString("download");
+var subscribe=getQueryString("subscribe");
+
+var base = new Base64();
+document.getElementById("download").href=base.decode(download);
+document.getElementById("subscribe").href=base.decode(subscribe);
+
+</script>  
+  </section>
+ </body>
+</html>
